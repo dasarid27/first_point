@@ -1,8 +1,0 @@
----
-- name: installtion of apache web server
-  hosts: all
-  become: yes
-  tasks:
-	- name: install httpd
-	  yum : install httpd
-	  service: present
